@@ -1,121 +1,377 @@
-## 13-08-2022
+## 22-08-2022
 
-`@chakra-ui/react@2.2.7`
+`@chakra-ui/react@2.2.9`
 
-- Remove `ChakraProvider.defaultProps` and move logic inside the component.
+- Refactor all packages to reduce bundle size
 
-**Storybook Addon** `v4.0.7`
+**React Use Focus On Pointer Down** `v2.0.1`
 
-- Fix issue with nullish operator in storybook
+- Initial release
+- Refactor all packages to reduce bundle size
 
-**Theme Tools** `v2.0.8`
-
-- Fix regression where `StyleFunctionProps` type was not exported
-
-**Theme** `v2.1.6`
-
-- Improve contrast of `FormHelperText` to satisfy accessibility check
-- Fix issue where disabled input with flushed or unstyled variant isn't
-  perceivable.
-
-**Accordion** `v2.0.9`
-
-- Reduce bundle size of accordion by leverage smaller packages
-
-**Utils** `v2.0.7`
-
-- Add pure annotation to utils package
-- Add pure annotation to `isBrowser` to tree-shake when bundling
-
-**React Use Update Effect** `v2.0.1`
+**React Use Previous** `v2.0.1`
 
 - Initial release
 
-**Color Mode** `v2.1.5`
-
-- Fix regression where `localStorageManager` was not exported
-
-**Merge Utils** `v2.0.1`
+**React Use Timeout** `v2.0.1`
 
 - Initial release
 
-**Object Utils** `v2.0.1`
+**React Use Safe Layout Effect** `v2.0.1`
+
+- Initial release
+- Refactor all packages to reduce bundle size
+
+**React Use Interval** `v2.0.1`
 
 - Initial release
 
-**React Env** `v2.0.7`
-
-- Omit rendered env span when the environment prop is passed. - Add `id` and
-  `hidden` attributes to the rendered env span
-
-**Event Utils** `v2.0.1`
+**Shared Utils** `v2.0.1`
 
 - Initial release
+- Refactor all packages to reduce bundle size
 
-**Number Utils** `v2.0.1`
+**Counter** `v2.0.9`
 
-- Initial release
+- Fix default values for min and max prop in docs
+- Refactor all packages to reduce bundle size
 
-**React Types** `v2.0.1`
+**Tooltip** `v2.0.10`
 
-- Initial release
+- Show at most one tooltip at a time
+- Refactor all packages to reduce bundle size
 
-**React Use Event Listener** `v2.0.1`
+**Accordion** `v2.0.11`
 
-- Initial release
+- Refactoring part of the components to enable Prop Docs generation for them.
+- Refactor all packages to reduce bundle size
 
-**Styled System** `v2.2.6`
+**Avatar** `v2.0.10`
 
-- Improve style computation performance by looping over styles once.
+- Refactoring part of the components to enable Prop Docs generation for them.
+- Refactor all packages to reduce bundle size
 
-Previously, we had two steps in the logic (expand responsive and convert to css
-object). This can be quite expensive with large css objects (or style props).
+**Icon** `v3.0.9`
 
-We now process both steps in a single pass.
+- Refactoring part of the components to enable Prop Docs generation for them.
+- Refactor all packages to reduce bundle size
 
-- Fix regression where `ThemeTypings` created by chakra-cli could not be used
-- Escape symbols in css variable to make it works
+**Layout** `v2.1.6`
 
-**Alert** `v2.0.7`
+- Refactoring part of the components to enable Prop Docs generation for them.
+- Refactor all packages to reduce bundle size
 
-- Refactor to reduce bundle size
+**Menu** `v2.0.11`
 
-**Avatar** `v2.0.8`
+- Refactoring part of the components to enable Prop Docs generation for them.
+- Refactor all packages to reduce bundle size
 
-- Refactor to reduce bundle size
+**Progress** `v2.0.10`
 
-**Hooks** `v2.0.7`
+- Refactoring part of the components to enable Prop Docs generation for them.
+- Refactor all packages to reduce bundle size
 
-- Deprecate `useDimensions` in favor of the `useSize` hook
+**Select** `v2.0.9`
 
-**React Use Size** `v2.0.1`
+- Refactoring part of the components to enable Prop Docs generation for them.
+- Refactor all packages to reduce bundle size
 
-- Initial release
+**Stat** `v2.0.9`
 
-**React Use Disclosure** `v2.0.1`
+- Refactoring part of the components to enable Prop Docs generation for them.
+- Refactor all packages to reduce bundle size
 
-- Initial release
+**Table** `v2.0.9`
 
-**Cli** `v2.1.5`
+- Refactoring part of the components to enable Prop Docs generation for them.
+- Refactor all packages to reduce bundle size
 
-- Fix regression where `ThemeTypings` created by chakra-cli could not be used
+**Tabs** `v2.0.11`
 
-**React Use Callback Ref** `v2.0.1`
+- Refactoring part of the components to enable Prop Docs generation for them.
+- Refactor all packages to reduce bundle size
 
-- Initial release
+**Props Docs** `v2.0.15`
 
-**React Use Controllable State** `v2.0.1`
+- Refactoring part of the components to enable Prop Docs generation for them.
+- Refactor all packages to reduce bundle size
 
-- Initial release
+**React Context** `v2.0.3`
 
-**React Context** `v2.0.1`
+- Refactor all packages to reduce bundle size
 
-- Initial release
+**React Use Callback Ref** `v2.0.3`
 
-**React Use Merge Refs** `v2.0.1`
+- Refactor all packages to reduce bundle size
 
-- Initial release
+**React Use Controllable State** `v2.0.3`
 
-**React Use Pan Event** `v2.0.1`
+- Refactor all packages to reduce bundle size
 
-- Initial release
+**React Use Disclosure** `v2.0.3`
+
+- Refactor all packages to reduce bundle size
+
+**React Use Event Listener** `v2.0.3`
+
+- Refactor all packages to reduce bundle size
+
+**React Use Merge Refs** `v2.0.3`
+
+- Refactor all packages to reduce bundle size
+
+**React Use Pan Event** `v2.0.3`
+
+- Refactor all packages to reduce bundle size
+
+**React Use Size** `v2.0.3`
+
+- Refactor all packages to reduce bundle size
+
+**React Use Update Effect** `v2.0.3`
+
+- Refactor all packages to reduce bundle size
+
+**Alert** `v2.0.9`
+
+- Refactor all packages to reduce bundle size
+
+**Anatomy** `v2.0.5`
+
+- Refactor all packages to reduce bundle size
+
+**Breadcrumb** `v2.0.9`
+
+- Refactor all packages to reduce bundle size
+
+**Button** `v2.0.9`
+
+- Refactor all packages to reduce bundle size
+
+**Checkbox** `v2.1.8`
+
+- Refactor all packages to reduce bundle size
+
+**Clickable** `v2.0.9`
+
+- Refactor all packages to reduce bundle size
+
+**Close Button** `v2.0.9`
+
+- Refactor all packages to reduce bundle size
+
+**Color Mode** `v2.1.7`
+
+- Refactor all packages to reduce bundle size
+
+**Control Box** `v2.0.9`
+
+- Refactor all packages to reduce bundle size
+
+**Css Reset** `v2.0.5`
+
+- Refactor all packages to reduce bundle size
+
+**Descendant** `v3.0.8`
+
+- Refactor all packages to reduce bundle size
+
+**Editable** `v2.0.9`
+
+- Refactor all packages to reduce bundle size
+
+**React Env** `v2.0.9`
+
+- Refactor all packages to reduce bundle size
+
+**Focus Lock** `v2.0.10`
+
+- Refactor all packages to reduce bundle size
+
+**Form Control** `v2.0.9`
+
+- Refactor all packages to reduce bundle size
+
+**Hooks** `v2.0.9`
+
+- Refactor all packages to reduce bundle size
+
+**Icons** `v2.0.9`
+
+- Refactor all packages to reduce bundle size
+
+**Image** `v2.0.10`
+
+- Refactor all packages to reduce bundle size
+
+**Input** `v2.0.9`
+
+- Refactor all packages to reduce bundle size
+
+**Live Region** `v2.0.9`
+
+- Refactor all packages to reduce bundle size
+
+**Media Query** `v3.2.5`
+
+- Refactor all packages to reduce bundle size
+
+**Modal** `v2.1.7`
+
+- Refactor all packages to reduce bundle size
+
+**Number Input** `v2.0.9`
+
+- Refactor all packages to reduce bundle size
+
+**Pin Input** `v2.0.11`
+
+- Refactor all packages to reduce bundle size
+
+**Popover** `v2.0.9`
+
+- Refactor all packages to reduce bundle size
+
+**Popper** `v3.0.7`
+
+- Refactor all packages to reduce bundle size
+
+**Portal** `v2.0.9`
+
+- Refactor all packages to reduce bundle size
+
+**Provider** `v2.0.14`
+
+- Refactor all packages to reduce bundle size
+
+**Radio** `v2.0.10`
+
+- Refactor all packages to reduce bundle size
+
+**React Utils** `v2.0.6`
+
+- Refactor all packages to reduce bundle size
+
+**Skeleton** `v2.0.14`
+
+- Refactor all packages to reduce bundle size
+
+**Skip Nav** `v2.0.9`
+
+- Refactor all packages to reduce bundle size
+
+**Slider** `v2.0.9`
+
+- Refactor all packages to reduce bundle size
+
+**Spinner** `v2.0.9`
+
+- Refactor all packages to reduce bundle size
+
+**Styled System** `v2.2.8`
+
+- Refactor all packages to reduce bundle size
+
+**Switch** `v2.0.11`
+
+- Refactor all packages to reduce bundle size
+
+**System** `v2.2.7`
+
+- Refactor all packages to reduce bundle size
+
+**Tag** `v2.0.9`
+
+- Refactor all packages to reduce bundle size
+
+**Textarea** `v2.0.10`
+
+- Refactor all packages to reduce bundle size
+
+**Theme** `v2.1.8`
+
+- Refactor all packages to reduce bundle size
+
+**Theme Tools** `v2.0.10`
+
+- Refactor all packages to reduce bundle size
+
+**Toast** `v3.0.7`
+
+- Refactor all packages to reduce bundle size
+
+**Transition** `v2.0.9`
+
+- Refactor all packages to reduce bundle size
+
+**Utils** `v2.0.9`
+
+- Refactor all packages to reduce bundle size
+
+**Visually Hidden** `v2.0.9`
+
+- Refactor all packages to reduce bundle size
+
+**Babel Plugin** `v1.0.8`
+
+- Refactor all packages to reduce bundle size
+
+**Cli** `v2.1.7`
+
+- Refactor all packages to reduce bundle size
+
+**Cra Template** `v2.0.7`
+
+- Refactor all packages to reduce bundle size
+
+**Cra Template Typescript** `v2.0.6`
+
+- Refactor all packages to reduce bundle size
+
+**Gatsby Plugin** `v3.0.5`
+
+- Refactor all packages to reduce bundle size
+
+**Storybook Addon** `v4.0.9`
+
+- Refactor all packages to reduce bundle size
+
+**Test Utils** `v2.0.15`
+
+- Refactor all packages to reduce bundle size
+
+**Breakpoint Utils** `v2.0.3`
+
+- Refactor all packages to reduce bundle size
+
+**Dom Utils** `v2.0.1`
+
+- Refactor all packages to reduce bundle size
+
+**Event Utils** `v2.0.3`
+
+- Refactor all packages to reduce bundle size
+
+**Lazy Utils** `v2.0.1`
+
+- Refactor all packages to reduce bundle size
+
+**Merge Utils** `v2.0.3`
+
+- Refactor all packages to reduce bundle size
+
+**Number Utils** `v2.0.3`
+
+- Refactor all packages to reduce bundle size
+
+**Object Utils** `v2.0.3`
+
+- Refactor all packages to reduce bundle size
+
+**React Children Utils** `v2.0.1`
+
+- Refactor all packages to reduce bundle size
+
+**React Types** `v2.0.3`
+
+- Refactor all packages to reduce bundle size
